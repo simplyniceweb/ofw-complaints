@@ -1,0 +1,9 @@
+database:
+    driver: pdo_mysql
+    host: localhost
+    dbname: ofw
+    user: root
+    password: root
+    charset: utf8
+    driverOptions:
+        1002: "SET sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''))"

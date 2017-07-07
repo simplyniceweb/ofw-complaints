@@ -1,0 +1,40 @@
+{
+    "name": "fabpot/silex-skeleton",
+    "description": "A pre-configured skeleton for the Silex microframework",
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.5.9",
+        "silex/silex": "~2.0",
+        "silex/web-profiler": "~2.0",
+        "symfony/asset": "~2.8|^3.0",
+        "symfony/browser-kit": "~2.8|^3.0",
+        "symfony/class-loader": "~2.8|^3.0",
+        "symfony/config": "~2.8|^3.0",
+        "symfony/console": "~2.8|^3.0",
+        "symfony/css-selector": "~2.8|^3.0",
+        "symfony/debug": "~2.8|^3.0",
+        "symfony/finder": "~2.8|^3.0",
+        "symfony/form": "~2.8|^3.0",
+        "symfony/monolog-bridge": "~2.8|^3.0",
+        "symfony/process": "~2.8|^3.0",
+        "symfony/security": "~2.8|^3.0",
+        "symfony/translation": "~2.8|^3.0",
+        "symfony/twig-bridge": "~2.8|^3.0",
+        "symfony/validator": "~2.8|^3.0",
+        "symfony/doctrine-bridge": "~2.8|^3.0",
+        "rpodwika/yaml-config-service-provider": "dev-master",
+        "doctrine/orm": "~2.5",
+        "doctrine/common": "~2.5",
+        "doctrine/dbal": "~2.5",
+        "twig/extensions": "1.4.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "controllers": "src/",
+            "front": "src/controllers/",
+            "admin": "src/controllers/",
+            "models": "src/"
+        }
+    }
+}
