@@ -13,8 +13,9 @@
 	            <p class="text-default extra-text">Saang bansa ka nag ta-trabaho?</p>
 	        </div>
 	        <div class="col-md-3">
-	            <button class="btn btn-default pull-right">Magreklamo</button>
+	            <button class="btn btn-default pull-right" data-toggle="modal" data-target="#reklamoModal">Magreklamo</button>
 	        </div>
 	    </div>
 	</div>
+	{% include "includes/reklamo.modal.twig" %}
 {% endblock %}

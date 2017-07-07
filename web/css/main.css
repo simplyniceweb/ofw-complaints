@@ -53,6 +53,9 @@ body {
 .country-select {
     width: 100%;
 }
+.country-select .country-list {
+    z-index: 10;
+}
 .country-select .country-list,
 .country-select.inside .flag-dropdown {
     color: #333;
@@ -70,6 +73,19 @@ footer {
   height: 40px;
   z-index: 10;
   margin: 0;
+}
+#reklamoModal {
+    color: #333;
+}
+#reklamoModal label {
+    font-weight: 400;
+}
+#reklamoModal .modal-dialog {
+    overflow-y: initial !important
+}
+#reklamoModal .modal-body {
+    height: 400px;
+    overflow-y: auto;
 }
 @media (min-width: 768px) {
     #wrapper {

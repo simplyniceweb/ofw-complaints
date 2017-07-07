@@ -31,8 +31,14 @@
 <script src="{{ asset('plugins/country-select-js/build/js/countrySelect.min.js') }}"></script>
 <script>
     $("document").ready(function(){
+        var defaultCountries = ['us', 'sa', 'ae', 'ca', 'my'];
+        
         $("#country").countrySelect({
-            preferredCountries: ['us', 'sa', 'ae', 'ca', 'my']
+            preferredCountries: defaultCountries
+        });
+
+        $("#deployed").countrySelect({
+            preferredCountries: defaultCountries
         });
     });
 </script>

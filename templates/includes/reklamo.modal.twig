@@ -1,0 +1,93 @@
+<!-- Modal -->
+<div class="modal fade" id="reklamoModal" tabindex="-1" role="dialog" aria-labelledby="reklamoModalLabel">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="reklamoModalLabel">OFW Complaint Form</h4>
+        </div>
+        <div class="modal-body">
+            <div class="form-group">
+                <label for="name">Fullname <span class="text-danger">*</span></label>
+                <input type="text" id="name" name="fullname" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="deployed">Where are you or where will you be deployed? <span class="text-danger">*</span></label>
+                <input type="text" id="deployed" name="deployed" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="contact_number">Contact Number (Country Code + Area Code + Phone Number) <span class="text-danger">*</span></label>
+                <input type="text" id="contact_number" name="contact_number" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="address">COMPLETE Overseas/Philippines Address <span class="text-danger">*</span></label>
+                <textarea id="address" name="address" class="form-control"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Does the issue concern Overseas Filipino Workers (OFWs)?</label>
+                <br>
+                <div class="btn-group" data-toggle="buttons">
+                    <label class="btn btn-default btn-sm active">
+                        <input type="radio" name="concern" id="option1" autocomplete="off" checked> Yes
+                    </label>
+                    <label class="btn btn-default btn-sm">
+                        <input type="radio" name="concern" id="option2" autocomplete="off"> No
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Are you currently living in the Philippines or abroad?</label>
+                <br>
+                <div class="btn-group" data-toggle="buttons">
+                    <label class="btn btn-default btn-sm active">
+                        <input type="radio" name="living" id="option1" autocomplete="off" checked> Yes
+                    </label>
+                    <label class="btn btn-default btn-sm">
+                        <input type="radio" name="living" id="option2" autocomplete="off"> No
+                    </label>
+                </div>
+            </div>
+            <div class="row">
+                <hr>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="viber">Viber</label>
+                        <input type="viber" id="viber" name="viber" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="whatsapp">WhatsApp</label>
+                        <input type="whatsapp" id="whatsapp" name="whatsapp" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="skype">Skype</label>
+                        <input type="text" id="skype" name="skype" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="brief">Please describe your complaint in a few words (Para mabilis ko magets) <span class="text-danger">*</span></label>
+                <textarea id="brief" name="brief" class="form-control"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="complaint">Please state your complaint completely. <span class="text-danger">*</span></label>
+                <textarea id="complaint" name="complaint" class="form-control"></textarea>
+            </div>
+            <div class="alert alert-info">
+                <p>To follow up on your complaint, please email <a href="mailto::tp@thinkingpinoy.net">tp@thinkingpinoy.net</a>.</p>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+    </div>
+</div>
+</div>
